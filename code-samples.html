@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>One Page Wonder - Start Bootstrap Template</title>
+    <title>Glynn Taylor's programming portfolio</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -28,7 +28,7 @@
 
 <body>
 
-    <!-- Navigation -->
+      <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -39,19 +39,22 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
+                <a class="navbar-brand" href="index.html">Home</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#about">About</a>
+                        <a href="code-samples.html">Code samples</a>
                     </li>
                     <li>
-                        <a href="#services">Services</a>
+                        <a href="blog.html">Blog</a>
                     </li>
                     <li>
-                        <a href="#contact">Contact</a>
+                        <a href="resume.html">Resume</a>
+                    </li>
+					 <li>
+                        <a href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -60,45 +63,77 @@
         <!-- /.container -->
     </nav>
 
-    <!-- Full Width Image Header -->
-    <header class="header-image">
-        <div class="headline">
-            <div class="container">
-                <h1>One Page Wonder</h1>
-                <h2>Will Knock Your Socks Off</h2>
-            </div>
-        </div>
-    </header>
+ 
 
     <!-- Page Content -->
     <div class="container">
-
-        <hr class="featurette-divider">
-
+		 <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Code samples
+                    <small></small>
+                </h1>
+            </div>
+        </div>
         <!-- First Featurette -->
-        <div class="featurette" id="about">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">This First Heading
-                <span class="text-muted">Will Catch Your Eye</span>
-            </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
+		<h2>Prototype roguelike (2012-2013)</h2>
+		<h3>Features</h3>
+		<ul>
+			<li>Implementation of A* pathfinding</li>
+			<li>Randomly generates dungeons</li>
+			<li>Simple RPG character system</li>
+			<li>OpenGL VBO handling and perspective+orthographic rendering</li>
+			<li>Save game and room prefab serialization</li>
+			<li>Room prefab editor and creator</li>
+		</ul>
+		<h3>Source</h3>
+		<a href="https://dl.dropboxusercontent.com/u/52640380/Released_Source/OpenGL_Roguelike_Topdown.zip">Source (Eclipse)</a>
 
-        <hr class="featurette-divider">
 
-        <!-- Second Featurette -->
-        <div class="featurette" id="services">
-            <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">The Second Heading
-                <span class="text-muted">Is Pretty Cool Too.</span>
-            </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
+		<h2>Heightmap renderer (2012-2013)</h2>
+		<h3>Features</h3>
+		<ul>
+			<li>OpenGL VBO handling and perspective+orthographic rendering</li>
+			<li>Heightmapping</li>
+		</ul>
+		<h3>Source</h3>
+		<a href="url">Pending release</a>
 
-        <hr class="featurette-divider">
+		<h2>Spriter2D (2013-2014)</h2>
+		<h3>Features</h3>
+		<ul>
+			<li>Many image handling techniques</li>
+			<li>Homegrown GUI elements/handler</li>
+			<li>OpenGL rendering</li>
+			<li>Serialization of projects and exporting to workspace</li>
+			<li>Image creation features</li>
+		</ul>
+		<h3>Source</h3>
+		<a href="index">Available at github, still pending release (main features complete, secondary features indev)</a>
+
+		<div id="pagetitle" style="text-decoration: underline">Educational release</div>
+		<p>Source code that is outdated compared to my current standard of work and should not be taken as an exemplar of my current work. May contain crazy experiments ^^</p>
+		<h2>Sokoban</h2>
+		<h3>Features</h3>
+		<ul>
+			<li>Multiplayer (non-dedicated server) using TCP networking</li>
+			<li>Map editor/creator</li>
+			<li>Username based high scores</li>
+			<li>Experimental code architecture</li>
+			<li>Serialization of maps</li>
+			<li>Funky console stuff</li>
+		</ul>
+		<h3>Source</h3>
+		<a href="/download/Apex5_Sobokan.zip" target="_blank">Download (source and exe)</a>
+
+
+
+
+     
+
+        <!--<hr class="featurette-divider">
 
         <!-- Third Featurette -->
-        <div class="featurette" id="contact">
+       <!-- <div class="featurette" id="contact">
             <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
             <h2 class="featurette-heading">The Third Heading
                 <span class="text-muted">Will Seal the Deal.</span>
@@ -112,7 +147,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                    <p>Copyright &copy; Glynn Taylor 2014</p>
                 </div>
             </div>
         </footer>

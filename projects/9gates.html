@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Portfolio Item - Start Bootstrap Template</title>
+    <title>9 Gates</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -69,7 +69,7 @@
         <!-- Portfolio Item Heading -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Pigs Must Die
+                <h1 class="page-header">9 Gates (OpenGL RPG)
                     <small></small>
                 </h1>
             </div>
@@ -80,16 +80,13 @@
         <div class="row">
 
             <div class="col-md-7">
-                <iframe width="560" height="315" src="http://www.youtube.com/embed/Q68-N5x8Kks" frameborder="0" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="http://www.youtube.com/embed/P0Y-HUaj16Q" frameborder="0" allowfullscreen></iframe>
             </div>
 
             <div class="col-md-5"> 
 			<h3>The initial idea</h3>
-			<p>
-			For this competition we were given the theme "stupid" and so, disregarding all attempts to make a political/social statement, I instead made a really silly game about murdering pigs who had eaten your entire livestock during the night</p>
-			<p>The game features four levels, comprising of 4 rooms (1 optional) and then a final boss room</p>
-			<p>I was applauded for the game's lack of sense making, as well as use of sounds and art; however the game fell short when it came to its unforgiving difficulty</p>
-
+<p> my second year computing coursework I decided to create a 3D roguelike, as it was not something that I had seen done before (that wasn't isometric). Initially I had planned to release a full singleplayer game; however as time went on and I realised how much work this would take, I had to cut out parts of the project, such as storyline, ranged weapons, shops and a few other key features.</p>
+<p>This project was incredibly fun to do and was probably my longest project to date; I feel like the vast majority of it was well written, and a lot of the GUI code I have taken on to develop in my later projects.</p>
             </div>
 
         </div>
@@ -100,27 +97,34 @@
             <div class="col-md-7">
 							<h3>Features</h3>
 			<ul>
-				<li>Fast paced shooter and pattern based combat</li>
-				<li>several enemy AI variants and boss AI</li>
-				<li>End game scenario</li>
-				<li>Initial game menu and end screens</li>
-				<li>"vague" sense of story</li>
-				<li>Custom models</li>
-				<li>Different weapons and enemies</li>
+ <li>A* pathfinding</li>
+    <li>OpenGL rendered maps and GUI</li>
+    <li>Front end GUI and menus</li>
+    <li>Primitive rpg system, stats + random equipable items and potions</li>
+    <li>End game boss and end state</li>
+    <li>Randomly generated maps, generated using prefabs and placed/connected using algorithms</li>
+    <li>Turn based combat</li>
+    <li>Saving and loading of games and prefabs</li>
+    <li>Many different mobs</li>
 			</ul>
             </div>
 
             <div class="col-md-5"> 
 			<h3>Technical aspect</h3>
-			<p>
-			Made in Unity3D, models created using blender and animated within Unity.
-			</p>
-			<h3>Downloads</h3>
+			<p>The entire project was rendered using OpenGL, though written in Java (uses LWJGL), using both VBOs for static geometry and immediate mode for rendering entities. Both game saves, (maps, entities, character statistics and equipment etc) and prefabs are fully serializeable and reloadable; I had some issue here where vbo buffers were not serializeable, and so had to also save map tile data to be remade into VBOs later on.</p>
+
+			<h3>Still to do</h3>
 			<ul>
-				<li><a href="http://www.mediafire.com/?p571o74da84j2v1">Windows</a></li>
-				<li>Web player(Coming soon)</li>
-				<li>Linux (Coming soon)</li>
-			</ul>
+
+	<li>Ranged weapons</li>
+    <li>Pets</li>
+    <li>Animations and models</li>
+    <li>Better combat</li>
+    <li>Difficulty adjustments</li>
+    <li>More furniture entities</li>
+    <li>Doors</li>
+    <li>Shops</li>
+    <li>Storyline</li></ul>
 
             </div>
 

@@ -1,6 +1,26 @@
-Code samples
+Code samples section
+	- Update features				-
+	- Heightmap renderer				++
+	- Prop Hunt					++
+	- Old projects?					++
 Builds for Unity games and source
+	-Update Code cracker UI				-
+	-Comment PMD + health ui + menu			---
+	-Comment Prop Hunt				---
 Add more description
+	-Reflectionfall					-
+	-Station 19					+
+	-Code cracker?					+
+	-Pigs must die?					+
+	-Prop Hunt					+
 Builds for OpenGL projects
-Resume fix
-Better contact
+	-Roguelike commented version			?
+	-FULL Heightmap renderer			-
+Github
+	-Add photo					-
+Website
+	-Link Domain Name				+
+	-Update twitter					+
+	-Update LinkedIn				-
+	-Update CV					-
+	-Add Name bar to pages				-

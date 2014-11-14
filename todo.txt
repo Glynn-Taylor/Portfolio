@@ -14,5 +14,4 @@ Website
 	-Update twitter					+	*
 	-Update LinkedIn				-	*
 	-Update CV					-	!
-	-Add Name bar to pages				-	!
 	-Reflectionfall video				+	!

@@ -5,7 +5,7 @@
  */
 
 body {
-    margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+   /* margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 .header-image {
@@ -175,4 +175,28 @@ footer {
         margin-bottom: 10px;
         margin-left: 0;
     }
+}
+#name-header{
+	height: auto!important;
+	box-sizing:border-box;
+	display:block!important;
+}
+#name-header h1{
+	font-size:36px;
+	color: #2f2f2f;
+	margin-top:10px;
+	margin-bottom:5px;
+}
+#name-header h2{
+	color: #8e8e8e;
+	font-size: 1.5em;
+	margin-top:0px;
+}
+#topnavbar{
+margin:0;
+}
+#topnavbar.affix{
+position: fixed;
+top:0;
+width:100%;
 }

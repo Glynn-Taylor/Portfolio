@@ -1,15 +1,12 @@
 Code samples section
-	-More old projects?					#
-Builds for Unity games and source			
+	-More old projects?					`
+Games			
 	-Mac builds (Pigs, Code cracker)		+	*
-	-Update Code cracker UI				-	*
-	-PMD menu					-	*
-Add more description
-	-Code cracker?					+	*
-Builds for OpenGL projects
-	-Comment current versions			?	
+	-Update {Code Cracker,Pigs MD} UI		-	!
+	-Description {Code Cracker}			-	!
+	-Comment OpenGL projects			?	!
 Github
-	-Add photo					-	#
+	-Add photo					-	`
 Website
 	-Update twitter					+	*
 	-Update LinkedIn				-	*

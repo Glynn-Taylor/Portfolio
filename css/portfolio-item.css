@@ -31,11 +31,3 @@ footer {
 	font-size: 1.5em;
 	margin-top:0px;
 }
-#topnavbar{
-margin:0;
-}
-#topnavbar.affix{
-position: fixed;
-top:0;
-width:100%;
-}

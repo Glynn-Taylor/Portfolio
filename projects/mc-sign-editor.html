@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Glynn Taylor - NAIC</title>
+    <title>Glynn Taylor - Minecraft Sign Localization Tool</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -27,7 +27,7 @@
 </head>
 
 <body>
-	<div class ="container">
+<div class ="container">
 		<div id="name-header">
 			<h1>Glynn Taylor</h1>
 			<h2>Games Programmer</h2>
@@ -74,7 +74,7 @@
         <!-- Portfolio Item Heading -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">NAIC Visualization
+                <h1 class="page-header">Minecraft Sign Localization Tool
                     <small></small>
                 </h1>
             </div>
@@ -85,15 +85,20 @@
         <div class="row">
 
             <div class="col-md-7">
-                <img src="../thumbnails/naic2.gif" alt="NAIC" style="width:450px;height:315px;">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/MfpE_NYLc_g" frameborder="0" allowfullscreen></iframe>
             </div>
 
             <div class="col-md-5"> 
 			<h3>About</h3>
-			<p>
-			As part of my part time work for Warwick Manufacturing group I worked on a project that took Revit data of the unconstructed NAIC building at Warwick University and imported it into Unity3D, with the purpose of visualising the space and customising it using some interior design tools I developed. </p>
-			<p>The tools developed were based around the ability to add in new furniture pieces and sets and customize their material properties, in order to get a better idea of how to further develop the space after construction was finished. </p>
-            </div>
+<p>
+This project was conceived as I watched a friend explain the Minecraft map making process and how they were localizing sign text within the game. To localize a single sign required the developer to physically go to the sign and create a command block which would then inject the localization code and string; to make it even more painful this had to be done for each line of the sign, with a separate localization string for each line.</p>
+<p>
+In order to make this process slightly more comfortable I decided to make a tool that would read the Minecraft save data and allow you to edit any sign in the world, auto-generating and handling the localization strings and associated files.
+</p>  
+<p>
+This turned out to be a fairly significant challenge due to the way Minecraft serializes save data, saving chunks into encrypted blocks with a lookup table that records the size of each blocks and which chunks they encapsulate. As changing sign data can change the size of these blocks it required fairly substantial technical work, as well as a lot of user testing by the map makers over at Mental Block Gaming in order to make it user friendly.
+</p>          
+ </div>
 
         </div>
         <!-- /.row -->
@@ -103,18 +108,28 @@
             <div class="col-md-7">
 							<h3>Features</h3>
 			<ul>
-				<li>Lightmapping of large architectural environments</li>
-				<li>Tools for creating and manipulating models, assigning textures and colors</li>
+				<li>Loading/saving Minecraft signs from map files </li>
+				<li>Auto generation of localization strings and files with an easy interface for editing signs and changing languages</li>
 			</ul>
             </div>
 
             <div class="col-md-5"> 
 			<h3>Technical aspect</h3>
 			<p>
-			Made in Unity3D, NAIC data supplied by Warwick Manufacturing Group.
-			</p>
+Programmed in C#, using .Net and WinForms for the user interface.
+</p>
 			<h3>Downloads</h3>
-			Due to the commercial nature of the project, no downloads can be made available.
+			<ul>
+<li>
+<a href="https://github.com/Glynn-Taylor/MC-SignLocalisation">Source (Github)</a>
+</li><!--<li>
+<a href="http://gtaylor.warwickcompsoc.co.uk/downloads/Reflectionfall_Windows_17-10-2014.zip">Windows</a>
+</li><li>
+<a href="http://gtaylor.warwickcompsoc.co.uk/downloads/Reflectionfall_Linux64_17-10-2014.zip">Linux(64bit)</a>
+</li><li>
+<a href="http://gtaylor.warwickcompsoc.co.uk/downloads/Reflectionfall_Flash_17-10-2014.zip">Flash</a>
+</li>-->	
+		</ul>
 
             </div>
 
